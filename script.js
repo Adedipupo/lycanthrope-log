@@ -11,5 +11,6 @@ class Record {
             name : event,
             day: day
         }
+        this.eventRecord = [...this.eventRecord, event]
     }
 }
