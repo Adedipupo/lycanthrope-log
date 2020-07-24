@@ -8,7 +8,8 @@ class Record {
 
     addEvent(event,day){
         const newEvent = {
-            
+            name : event,
+            day: day
         }
     }
 }
