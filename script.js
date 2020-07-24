@@ -16,3 +16,9 @@ class Record {
 }
 
   const record1 = new Record();
+
+newJournal.addEvent('Drinking', 1);
+newJournal.addEvent('Work', 1);
+newJournal.addEvent('Touched Oak tree', 1);
+newJournal.addEvent('Peanuts', 2);
+newJournal.addEvent('Brushed teeth', 2);
