@@ -1,8 +1,8 @@
-class Event {
+class Record {
     constructor(){
         this.eventRecord = [];
     }
-    get eventLog(){
+    get record(){
         return this.eventRecord;
     }
 }
