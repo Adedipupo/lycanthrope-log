@@ -5,4 +5,10 @@ class Record {
     get record(){
         return this.eventRecord;
     }
+
+    addEvent(event,day){
+        const newEvent = {
+            
+        }
+    }
 }
