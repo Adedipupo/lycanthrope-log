@@ -17,8 +17,8 @@ class Record {
 
   const record1 = new Record();
 
-newJournal.addEvent('Drinking', 1);
-newJournal.addEvent('Work', 1);
-newJournal.addEvent('Touched Oak tree', 1);
-newJournal.addEvent('Peanuts', 2);
-newJournal.addEvent('Brushed teeth', 2);
+record1.addEvent('Drinking', 1);
+record1.addEvent('Work', 1);
+record1.addEvent('Touched Oak tree', 1);
+record1.addEvent('Peanuts', 2);
+record1.addEvent('Brushed teeth', 2);
