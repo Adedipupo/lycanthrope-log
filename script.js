@@ -59,10 +59,5 @@ record1.addEvent('Peanuts', 13);
 record1.addEvent('Brushed teeth', 14);
 record1.addEvent('Television', 14);
 record1.addEvent('Cycling', 14);
-addEntry(["work", "touched tree", "pizza", "running",
-    "television"], false);
-addEntry(["work", "ice cream", "cauliflower", "lasagna",
-    "touched tree", "brushed teeth"], false);
-addEntry(["weekend", "cycling", "break", "peanuts",
-    "beer"], true);
+
 
