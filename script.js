@@ -21,8 +21,8 @@ class Record {
         ))
     }
     getTransformationDays() {
-        return this.eventJournal.reduce((days, event) => {
-            if (event.name.toLowerCase().includes('eat pizza')) {
+        return this.eventRecord.reduce((days, event) => {
+            if (event.name.includes('Pizza')) {
                 days.push(`Day ${event.day}`);
             }
 
