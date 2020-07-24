@@ -54,11 +54,11 @@ record1.addEvent('Brushed teeth', 12);
 record1.addEvent('Running', 12);
 record1.addEvent('Drinking', 12);
 record1.addEvent('Work', 13);
-record1.addEvent('Touched Oak tree', 13);
+record1.addEvent('Pizza', 13);
 record1.addEvent('Peanuts', 13);
 record1.addEvent('Brushed teeth', 14);
-record1.addEvent('Peanuts', 14);
-record1.addEvent('Brushed teeth', 14);
+record1.addEvent('Television', 14);
+record1.addEvent('Cycling', 14);
 addEntry(["work", "touched tree", "pizza", "running",
     "television"], false);
 addEntry(["work", "ice cream", "cauliflower", "lasagna",
