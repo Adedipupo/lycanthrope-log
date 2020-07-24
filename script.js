@@ -16,6 +16,8 @@ class Record {
 }
 
   const record1 = new Record();
+
+record1.addEvent  
 addEntry(["work", "touched tree", "pizza", "running",
     "television"], false);
 addEntry(["work", "ice cream", "cauliflower", "lasagna",
