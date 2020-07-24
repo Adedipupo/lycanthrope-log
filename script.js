@@ -25,7 +25,6 @@ class Record {
             if (event.name.includes('Pizza')) {
                 days.push(`Day ${event.day}`);
             }
-
             return days;
         }, [])
     }
@@ -77,3 +76,4 @@ record1.addEvent("Television", 14);
 record1.addEvent("Cycling", 14);
 
 console.log(record1.record);
+console.log(newJournal.getTransformationDays());
