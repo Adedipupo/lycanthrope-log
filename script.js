@@ -20,6 +20,15 @@ class Record {
             event.day === day
         ))
     }
+    getLycanthropeDays() {
+        return this.eventJournal.reduce((days, event) => {
+            if (event.name.toLowerCase().includes('eat pizza')) {
+                days.push(`Day ${event.day}`);
+            }
+
+            return days;
+        }, [])
+    }
 }
 
 const record1 = new Record();
