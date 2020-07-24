@@ -75,5 +75,7 @@ record1.addEvent("Brushed teeth", 14);
 record1.addEvent("Television", 14);
 record1.addEvent("Cycling", 14);
 
+// Events and Days
 console.log(record1.record);
+// Jacques will transform on :
 console.log(record1.getTransformationDays());
