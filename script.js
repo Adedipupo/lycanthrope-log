@@ -20,7 +20,7 @@ class Record {
             event.day === day
         ))
     }
-    getLycanthropeDays() {
+    getTransformationDays() {
         return this.eventJournal.reduce((days, event) => {
             if (event.name.toLowerCase().includes('eat pizza')) {
                 days.push(`Day ${event.day}`);
