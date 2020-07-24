@@ -76,4 +76,4 @@ record1.addEvent("Television", 14);
 record1.addEvent("Cycling", 14);
 
 console.log(record1.record);
-console.log(newJournal.getTransformationDays());
+console.log(record1.getTransformationDays());
