@@ -14,3 +14,5 @@ class Record {
         this.eventRecord = [...this.eventRecord, event]
     }
 }
+
+  const record1 = new Record();
