@@ -13,7 +13,7 @@ class Record {
     };
     this.eventRecord = [...this.eventRecord, event];
   }
-    getLogForDay(day) {
+    getEventForDay(day) {
         let dayEvents = this.eventRecord.filter((e) => (e.day === day))
         if (dayEvents.length === 0) return `No events log for the day ${day}`
         return this.events.filter((event) => (
