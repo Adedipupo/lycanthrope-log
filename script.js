@@ -11,7 +11,7 @@ class Record {
       name: event,
       day: day,
     };
-    this.eventRecord = [...this.eventRecord, event];
+    this.eventRecord = [...this.eventRecord, newEvent];
   }
     getEventsForDay(day) {
         let dayEvents = this.eventRecord.filter((e) => (e.day === day))
